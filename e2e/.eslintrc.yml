@@ -1,0 +1,30 @@
+---
+extends: 'airbnb-base'
+parserOptions:
+  ecmaVersion: 8
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+
+env:
+  browser: true
+  node: true
+  jest: true
+
+rules:
+  indent:
+    - error
+    - 4
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  no-console:
+    - 0
+  comma-dangle:
+    - 2
+    - objects: always-multiline
